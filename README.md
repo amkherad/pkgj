@@ -35,17 +35,17 @@ Press left or right button to move page up or down.
 
 pkgj is shipped with valid default URLs. If you wish to change some settings, they can be configured through `ux0:pkgj/config.txt` or `ur0:pkgj/config.txt`.
 
-| Option | Description |
-| --- | --- |
-| `url_games <URL>` | The URL of the PS Vita game list |
-| `url_psv_demos <URL>` | The URL of the PS Vita demo list |
-| `url_dlcs <URL>` | The URL of the PS Vita DLC list |
-| `url_psv_themes <URL>` | The URL of the PS Vita Theme list |
-| `url_psm_games <URL>` | The URL of the PS Mobile list (see Q&A) |
-| `url_psp_games <URL>` | The URL of the PSP game list |
-| `url_psp_dlcs <URL>` | The URL of the PSP DLC list |
-| `url_psx_games <URL>` | The URL of the PSX game list |
-| `url_comppack <URL>` | The URL of the PS Vita compatibility pack list |
+| Option | Description | Default Value |
+| --- | --- | --- |
+| `url_games <URL>` | The URL of the PS Vita game list | http://nopaystation.com/tsv/PSV_GAMES.tsv |
+| `url_psv_demos <URL>` | The URL of the PS Vita demo list | http://nopaystation.com/tsv/PSV_DEMOS.tsv |
+| `url_dlcs <URL>` | The URL of the PS Vita DLC list | http://nopaystation.com/tsv/PSV_DLCS.tsv |
+| `url_psv_themes <URL>` | The URL of the PS Vita Theme list | http://nopaystation.com/tsv/PSV_THEMES.tsv |
+| `url_psm_games <URL>` | The URL of the PS Mobile list (see Q&A) | http://nopaystation.com/tsv/PSM_GAMES.tsv |
+| `url_psp_games <URL>` | The URL of the PSP game list | http://nopaystation.com/tsv/PSP_GAMES.tsv |
+| `url_psp_dlcs <URL>` | The URL of the PSP DLC list | http://nopaystation.com/tsv/PSP_DLCS.tsv |
+| `url_psx_games <URL>` | The URL of the PSX game list | http://nopaystation.com/tsv/PSX_GAMES.tsv |
+| `url_comppack <URL>` | The URL of the PS Vita compatibility pack list | `[EMPTY]` |
 | `install_psp_as_pbp 1` | Install PSP games as EBOOT.EBP files instead of ISO files (see Q&A) |
 | `install_psp_psx_location uma0:` | Install PSP and PSX games on `uma0:` |
 | `no_version_check 1` | Do not check for update when starting PKGj |
